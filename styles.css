@@ -100,7 +100,7 @@ body p {
 
 @media (min-width: 768px) {
   .container {
-    height: 85vh;
+    
     width: 95vw;
   }
   .game-container {
@@ -131,7 +131,5 @@ body p {
   .game-container {
     width: 30%;
   }
-  body p {
-    padding: 0 20%;
-  }
+ 
 }
