@@ -10,10 +10,12 @@ body {
 }
 body h1 {
   color: white;
+  margin: 10px 0;
 }
 body p {
   color: white;
   padding: 0 10%;
+  margin: 5px 0;
 }
 .center {
   display: flex;
@@ -98,7 +100,7 @@ body p {
 
 @media (min-width: 768px) {
   .container {
-    height: 80vh;
+    height: 85vh;
     width: 95vw;
   }
   .game-container {
