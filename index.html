@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <title>Math Clash</title>
+  </head>
+  <body>
+    <h1>Math Clash</h1>
+    <p>How to play: Click on the moving number cells to add the displayed numbers and match it with the number provided in the yellow box. The current sum appears in the orange one. Make sure the moving numbers do not reach the end row.</p>
+      <div class="container center" id="container">
+        <div class="game-container" id="game-container">
+          <div class="upper-container" id="upper-container">
+            <div class="target-sum-row" id="target-sum-row">
+              <div class="target center" id="target"></div>
+              <div class="current-sum center" id="current-sum"></div>
+            </div>
+          </div>
+        </br>
+          <div class="board center" id="board" ></div>
+          <div id="score" class="score center">Your Score :</div>
+        </div>
+      </div>
+      <script src="App.js"></script>
+  </body>
+</html>
