@@ -1,1 +1,135 @@
+* {
+  font-family: "Merriweather", serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("math_clash_back.jpg");
+}
+body h1 {
+  color: white;
+}
+body p {
+  color: white;
+  padding: 0 10%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upper-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgb(76, 43, 199);
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+.game-container {
+  width: 65%;
+  height: 30%;
+  background-color: rgb(102, 211, 120);
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px black;
+}
+.target-sum-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30%;
+  width: 100%;
+}
+.target {
+  background-color: yellow;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin: 25px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+.current-sum {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(223, 74, 15);
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 40px;
+  font-weight: bold;
+}
+.score {
+  margin: 10px;
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+  font-weight: bold;
+}
+.board {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cell {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  background-color: rgb(223, 65, 152);
+  border-radius: 5px;
+  margin: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.selected {
+  background-color: blue;
+  color: white;
+}
 
+@media (min-width: 768px) {
+  .container {
+    height: 80vh;
+    width: 95vw;
+  }
+  .game-container {
+    width: 45%;
+    height: 90%;
+  }
+  .target {
+    width: 65px;
+    height: 65px;
+  }
+  .current-sum {
+    width: 45px;
+    height: 45px;
+  }
+  .cell {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .game-container {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .game-container {
+    width: 30%;
+  }
+  body p {
+    padding: 0 20%;
+  }
+}
