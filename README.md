@@ -6,7 +6,7 @@
 <p>How to play: Click on the moving number cells to add the displayed numbers and match it with the number provided in the yellow box. The current sum appears in the orange one. Make sure the moving numbers do not reach the end row.</p>
 <h3>Tech-Stack</h3>
 <ul>
-  <li> HTML:Semantic HTML</li>
+  <li> HTML</li>
   <li>CSS3</li>
   <li>JavaScript</li>
 </ul>
