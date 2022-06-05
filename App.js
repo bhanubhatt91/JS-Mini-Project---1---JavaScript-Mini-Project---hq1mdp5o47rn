@@ -112,7 +112,7 @@ const removeAllSelected = () => {
   return count;
 };
 
-const handleClick = (cell, i, j) => {
+const handleClick = (i, j) => {
   if (grid[i][j] === "") {
     return;
   }
@@ -151,7 +151,7 @@ const initBoard = () => {
       cellEl.setAttribute("id", getId(i, j));
       cellEl.setAttribute("selected", false);
       cellEl.className = "cell center";
-      cellEl.addEventListener("click", () => handleClick(cellEl, i, j));
+      cellEl.addEventListener("click", () => handleClick(i, j));
       rowEl.appendChild(cellEl);
     }
     cellContainer.appendChild(rowEl);
